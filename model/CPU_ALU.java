@@ -50,7 +50,7 @@ public class CPU_ALU
     public void MVI (CPU_Register location, boolean[] immediateValue) {
     	for (int i = 0; i < myRegisters.length; i++) {
     		if (myRegisters[i] == location) {
-    			myRegisters[i].setValue(immediateValue);
+    			myRegisters[i].setRegisterValue(immediateValue);
     		}
     	}
     }
