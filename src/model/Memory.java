@@ -13,7 +13,7 @@ public class Memory
         memArray = new boolean[65536][8];
     }
 
-    boolean[] getMemAtAddress(int address)
+    public boolean[] getMemAtAddress(int address)
     {
         if (address >= 0 && address < 65536)
             return memArray[address];
