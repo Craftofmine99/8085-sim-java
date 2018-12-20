@@ -4,5 +4,5 @@ public class Memory
     {
 
     }
-    private Bool[65536][8] memArray;
+    private boolean [65536][8] memArray;
 }
