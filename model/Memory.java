@@ -1,8 +1,11 @@
 public class Memory
 {
+	
+	private boolean[][] memArray;
+	
     public Memory()
     {
 
     }
-    private boolean [65536][8] memArray;
+    
 }
