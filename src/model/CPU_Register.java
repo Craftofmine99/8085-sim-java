@@ -1,3 +1,5 @@
+package model;
+
 /**
  * Generic Register for 8085 CPU
  * 

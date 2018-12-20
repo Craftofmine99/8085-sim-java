@@ -1,3 +1,4 @@
+package model;
 /**
  * ALU for 8085 CPU
  * @author haney-oliver
