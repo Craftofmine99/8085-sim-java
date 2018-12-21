@@ -10,7 +10,7 @@ public class Memory
     /////////////////
     public Memory()
     {
-        memArray = new boolean[4096][8];
+        memArray = new boolean[8][4096];
     }
 
     public boolean[] getMemAtAddress(int address)
