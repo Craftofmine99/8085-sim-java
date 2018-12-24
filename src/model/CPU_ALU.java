@@ -49,10 +49,44 @@ public class CPU_ALU
      * @param immediateValue
      */
     public void MVI (CPU_Register location, boolean[] immediateValue) {
+		if(immediateValue.length != 8) return;
     	for (int i = 0; i < myRegisters.length; i++) {
     		if (myRegisters[i] == location) {
     			myRegisters[i].setRegisterValue(immediateValue);
     		}
     	}
-    }
+	}
+	
+	public boolean[] getRegisterA()
+	{
+		return Accumulator.getCurrentValue();
+	}
+	public boolean[] getRegisterB()
+	{
+		return B.getCurrentValue();
+	}
+	public boolean[] getRegisterC()
+	{
+		return C.getCurrentValue();
+	}
+	public boolean[] getRegisterD()
+	{
+		return D.getCurrentValue();
+	}
+	public boolean[] getRegisterE()
+	{
+		return E.getCurrentValue();
+	}
+	public boolean[] getRegisterH()
+	{
+		return H.getCurrentValue();
+	}
+	public boolean[] getRegisterL()
+	{
+		return L.getCurrentValue();
+	}
+	public boolean[] getFlags()
+	{
+		return Flags.getCurrentValue();
+	}
 }
