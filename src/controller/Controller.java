@@ -2,7 +2,7 @@ package controller;
 
 import view.*;
 import model.*;
-import Math.*;
+import java.lang.Math.*;
 
 public class Controller
 {
