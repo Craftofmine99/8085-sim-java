@@ -4,7 +4,7 @@ package model;
  * Generic Register for 8085 CPU
  * 
  * @author haney-oliver
- * @author whatever you want your name to be represented as
+ * @author ngilmet
  *
  */
 

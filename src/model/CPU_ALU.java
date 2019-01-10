@@ -2,7 +2,7 @@ package model;
 /**
  * ALU for 8085 CPU
  * @author haney-oliver
- * @author wywyntb
+ * @author ngilmet
  *
  */
 public class CPU_ALU
